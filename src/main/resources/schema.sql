@@ -1,0 +1,9 @@
+DROP TABLE USERS IF EXISTS;
+
+CREATE TABLE USERS
+(
+    user_id    BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name       VARCHAR(20),
+    occupation VARCHAR(20),
+    country    VARCHAR(30)
+);
